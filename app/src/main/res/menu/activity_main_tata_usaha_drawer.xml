@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manajemen_data_guru"
+            android:icon="@drawable/users"
+            android:title="Manajemen Data Guru" />
+        <item
+            android:id="@+id/nav_manajemen_inventory_barang"
+            android:icon="@drawable/archive"
+            android:title="Manajemen Inventory barang" />
+        <!--<item-->
+            <!--android:id="@+id/nav_upload_materi"-->
+            <!--android:icon="@drawable/book"-->
+            <!--android:title="Upload Materi" />-->
+        <item
+            android:id="@+id/nav_mutasi_karyawan"
+            android:icon="@drawable/ic_menu_task"
+            android:title="Mutasi Karyawan" />
+        <item
+            android:id="@+id/nav_manajemen_absensi_karyawan"
+            android:icon="@drawable/ic_menu_user_check"
+            android:title="Manajemen Absensi Karyawan" />
+        <item
+            android:id="@+id/nav_input_pengajuan_barang"
+            android:icon="@drawable/ic_menu_input_document"
+            android:title="Input Pengajuan Barang" />
+        <item
+            android:id="@+id/nav_pendataan_legaisir"
+            android:icon="@drawable/book"
+            android:title="Pendataan Legalisir" />
+        <item
+            android:id="@+id/nav_input_prestasi_siswa"
+            android:icon="@drawable/medal"
+            android:title="Input Prestasi Siswa" />
+        <item
+            android:id="@+id/nav_input_beasiswa_siswa"
+            android:icon="@drawable/ic_menu_siswa"
+            android:title="Input Beasiswa Siswa" />
+        <item
+            android:id="@+id/nav_input_jadwal_guru"
+            android:icon="@drawable/ic_menu_scedhule"
+            android:title="Input Jadwa Guru" />
+        <item
+            android:id="@+id/nav_lihat_broadcast_message"
+            android:icon="@drawable/ic_menu_message"
+            android:title="Lihat Broadcast Message" />
+        <item
+            android:id="@+id/nav_kirim_broadcast_message"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Kirim Broadcas Message" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+    </group>
+</menu>

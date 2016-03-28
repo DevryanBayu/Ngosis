@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_login"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="76dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <ImageView
+                android:background="@drawable/ic_ngosis_logo"
+                android:layout_width="170dp"
+                android:layout_height="75dp"
+                android:layout_marginBottom="18dp"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--  Email Label -->
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="8dp"
+                        android:textColorHint="@android:color/white"
+                        >
+                        <EditText android:id="@+id/input_email"
+                            android:drawableLeft="@drawable/ic_drawable_left_username"
+                            android:drawableStart="@drawable/ic_drawable_left_username"
+                            android:drawablePadding="5dp"
+                            android:backgroundTint="@android:color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textEmailAddress"
+                            android:textColor="@android:color/white"
+                            android:hint="Username"
+                            android:textColorHint="@android:color/white"/>
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="15dp"
+                        android:textColorHint="@android:color/white">
+                        <EditText android:id="@+id/input_password"
+                            android:drawableLeft="@drawable/ic_drawable_left_password"
+                            android:drawableStart="@drawable/ic_drawable_left_password"
+                            android:drawablePadding="5dp"
+                            android:backgroundTint="@android:color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPassword"
+                            android:textColor="@android:color/white"
+                            android:hint="Password"
+                            android:textColorHint="@android:color/white"/>
+                    </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:layout_marginBottom="24dp"
+                android:padding="12dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:text="Login"
+                android:gravity="center"
+                android:textColor="@android:color/white"/>
+
+            <TextView android:id="@+id/link_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="Lupa Password?"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textSize="16dip"
+                android:drawableRight="@drawable/ic_tanda_tanya"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

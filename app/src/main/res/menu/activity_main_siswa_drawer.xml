@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_jadwal_pelajaran"
+            android:icon="@drawable/ic_menu_scedhule"
+            android:title="Jadwal Pelajaran" />
+        <item
+            android:id="@+id/nav_absensi_siswa"
+            android:icon="@drawable/ic_menu_user_check"
+            android:title="Absensi Siswa" />
+        <item
+            android:id="@+id/nav_absensi_siswa_per_mapel"
+            android:icon="@drawable/ic_menu_absensi_siswa_per_mapel"
+            android:title="Absensi Siswa Per MaPel" />
+        <item
+            android:id="@+id/nav_lihat_materi"
+            android:icon="@drawable/book"
+            android:title="Lihat Materi" />
+        <item
+            android:id="@+id/nav_tugas"
+            android:icon="@drawable/ic_menu_task"
+            android:title="Tugas" />
+        <item
+            android:id="@+id/nav_nilai_tugas"
+            android:icon="@drawable/ic_menu_nilai_tugas"
+            android:title="Nilai Tugas" />
+        <item
+            android:id="@+id/nav_nilai_semester"
+            android:icon="@drawable/ic_menu_nilai_semester"
+            android:title="Nilai Semester" />
+        <item
+            android:id="@+id/nav_view_broadcast_message"
+            android:icon="@drawable/ic_menu_message"
+            android:title="View Broadcast Message" />
+        <item
+            android:id="@+id/nav_notifikasi_deadline_tugas"
+            android:icon="@drawable/ic_menu_notification"
+            android:title="Notifikasi Deadline Tugas" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

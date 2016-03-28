@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_setup_akun"
+            android:icon="@drawable/users"
+            android:title="Setup Akun" />
+        <item
+            android:id="@+id/nav_input_jurnal_umum"
+            android:icon="@drawable/book"
+            android:title="Input Jurnal Umum" />
+        <item
+            android:id="@+id/nav_view_broadcast_message"
+            android:icon="@drawable/ic_menu_message"
+            android:title="View Broadcast Message" />
+
+        <item android:title="Pengecekan">
+            <menu>
+                <item
+                    android:id="@+id/nav_cek_tagihan"
+                    android:icon="@drawable/ic_menu_lihat_tagihan"
+                    android:title="Cek Tagihan" />
+                <item
+                    android:id="@+id/nav_cek_payment_activity"
+                    android:icon="@drawable/ic_menu_history_payment"
+                    android:title="Cek Payment Activity" />
+            </menu>
+        </item>
+
+        <item android:title="Pengaturan">
+            <menu>
+                <item
+                    android:id="@+id/nav_pengaturan_angsuran_pembayaran"
+                    android:icon="@drawable/ic_menu_payment_tagihan"
+                    android:title="Angsuran Pembayaran" />
+                <item
+                    android:id="@+id/nav_pengaturan_gaji_karyawan"
+                    android:icon="@drawable/ic_menu_penggajian"
+                    android:title="Gaji Karyawan" />
+            </menu>
+        </item>
+
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+    </group>
+</menu>

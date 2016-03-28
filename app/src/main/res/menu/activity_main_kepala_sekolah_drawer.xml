@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_broadcast_message"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Broadcast Message" />
+        <item
+            android:id="@+id/nav_otoritas_ijin_cuti"
+            android:icon="@drawable/book"
+            android:title="Otorisasi Ijin Cuti" />
+    </group>
+
+    <item android:title="Monitoring">
+        <menu>
+            <item
+                android:id="@+id/nav_siswa"
+                android:icon="@drawable/ic_menu_siswa"
+                android:title="Siswa" />
+            <item
+                android:id="@+id/nav_guru"
+                android:icon="@drawable/users"
+                android:title="Guru" />
+            <item
+                android:id="@+id/nav_keuangan"
+                android:icon="@drawable/money"
+                android:title="Keuangan" />
+            <item
+                android:id="@+id/nav_tata_usaha"
+                android:icon="@drawable/archive"
+                android:title="Tata Usaha" />
+            <item
+                android:id="@+id/nav_komite"
+                android:icon="@drawable/medal"
+                android:title="Komite" />
+        </menu>
+    </item>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

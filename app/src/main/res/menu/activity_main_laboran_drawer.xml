@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pengajuan_bahan_laboran"
+            android:icon="@drawable/lab"
+            android:title="Pengajuan Baha Laboran" />
+        <item
+            android:id="@+id/nav_aset_laboran"
+            android:icon="@drawable/ic_menu_aset_laboran"
+            android:title="Aset Laboran" />
+        <item
+            android:id="@+id/nav_laporan_aset"
+            android:icon="@drawable/ic_menu_check_list"
+            android:title="Laporan Aset" />
+        <item
+            android:id="@+id/nav_view_broadcast_message"
+            android:icon="@drawable/ic_menu_message"
+            android:title="Lihat Broadcast Message" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

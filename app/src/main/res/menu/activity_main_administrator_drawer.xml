@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_identitas_sekolah"
+            android:icon="@drawable/office"
+            android:title="Identitas Sekolah" />
+        <item
+            android:id="@+id/nav_mata_pelajaran"
+            android:icon="@drawable/book"
+            android:title="Mata Pelajaran" />
+        <item
+            android:id="@+id/nav_kelas"
+            android:icon="@drawable/ic_menu_siswa"
+            android:title="Kelas" />
+        <item
+            android:id="@+id/nav_pengaturan_lab"
+            android:icon="@drawable/lab"
+            android:title="Pengaturan Lab" />
+        <item
+            android:id="@+id/nav_perpustakaan"
+            android:icon="@drawable/archive"
+            android:title="Perpustakaan" />
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/users"
+            android:title="user" />
+        <item
+            android:id="@+id/nav_hak_akses_user"
+            android:icon="@drawable/ic_menu_setting"
+            android:title="Hak Akses User" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

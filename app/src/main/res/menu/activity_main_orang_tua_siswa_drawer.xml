@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_monitoring_anak"
+            android:icon="@drawable/ic_menu_siswa"
+            android:title="Monitoring Anak" />
+        <item
+            android:id="@+id/nav_notifikasi_tagihan_siswa"
+            android:icon="@drawable/ic_menu_notification"
+            android:title="Notifikasi Tagihan" />
+        <item
+            android:id="@+id/nav_lihat_tagihan_siswa"
+            android:icon="@drawable/ic_menu_lihat_tagihan"
+            android:title="Lihat Tagihan" />
+        <item
+            android:id="@+id/nav_payment_tagihan"
+            android:icon="@drawable/ic_menu_payment_tagihan"
+            android:title="Payment Tagihan" />
+        <item
+            android:id="@+id/nav_history_payment"
+            android:icon="@drawable/ic_menu_history_payment"
+            android:title="Histori Payment" />
+        <item
+            android:id="@+id/nav_view_broadcast_message"
+            android:icon="@drawable/ic_menu_message"
+            android:title="View Broadcast Message" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

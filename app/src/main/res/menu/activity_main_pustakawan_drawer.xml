@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_input_pengajuan_pengadaan_buku"
+            android:icon="@drawable/archive"
+            android:title="Input Pengajuan Pengadaan Buku" />
+        <item
+            android:id="@+id/nav_setup_lemari_buku"
+            android:icon="@drawable/ic_menu_user_check"
+            android:title="Setup Lemari Buku" />
+        <item
+            android:id="@+id/nav_input_jenis_buku"
+            android:icon="@drawable/book"
+            android:title="Input Jenis Buku" />
+        <item
+            android:id="@+id/nav_input_data_buku"
+            android:icon="@drawable/ic_menu_input_document"
+            android:title="Input Data Buku" />
+        <item
+            android:id="@+id/nav_input_lokasi_data_buku"
+            android:icon="@drawable/ic_menu_rak_buku"
+            android:title="Input Lokasi Data Buku" />
+        <item
+            android:id="@+id/nav_cetak_kartu_anggota"
+            android:icon="@drawable/ic_menu_cetak"
+            android:title="Cetak Kartu Anggota" />
+        <item
+            android:id="@+id/nav_input_peminjaman_buku"
+            android:icon="@drawable/ic_menu_peminjaman_buku"
+            android:title="Input Peminjaman Buku" />
+        <item
+            android:id="@+id/nav_input_pengembalian_buku"
+            android:icon="@drawable/ic_menu_pengembalian_buku"
+            android:title="Input Pengembalian Buku" />
+        <item
+            android:id="@+id/nav_laporan_peminjaman_buku"
+            android:icon="@drawable/ic_menu_laporan_peminjaman_buku"
+            android:title="Laporan Peminjaman Buku" />
+        <item
+            android:id="@+id/nav_laporan_pengembalian_buku"
+            android:icon="@drawable/ic_menu_laporan_pengembalian_buku"
+            android:title="Laporan Pengembalian Buku" />
+        <item
+            android:id="@+id/nav_update_status_buku"
+            android:icon="@drawable/ic_menu_update_status_buku"
+            android:title="Update Status Buku" />
+        <item
+            android:id="@+id/nav_lihat_broadcast_message"
+            android:icon="@drawable/ic_menu_message"
+            android:title="Lihat Broadcast Message" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+    </group>
+</menu>

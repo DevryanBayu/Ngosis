@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_laporan_program_kerja"
+            android:icon="@drawable/ic_menu_scedhule"
+            android:title="Laporan Program Kerja" />
+        <item
+            android:id="@+id/nav_view_broadcast_message"
+            android:icon="@drawable/ic_menu_message"
+            android:title="View Broadcast Message" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

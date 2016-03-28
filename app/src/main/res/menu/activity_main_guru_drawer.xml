@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_jadwal_mengajar"
+            android:icon="@drawable/ic_menu_scedhule"
+            android:title="Jadwal Mengajar" />
+        <item
+            android:id="@+id/nav_absensi_siswa"
+            android:icon="@drawable/ic_menu_user_check"
+            android:title="Absensi Siswa" />
+        <item
+            android:id="@+id/nav_upload_materi"
+            android:icon="@drawable/book"
+            android:title="Upload Materi" />
+        <item
+            android:id="@+id/nav_upload_tugas"
+            android:icon="@drawable/ic_menu_task"
+            android:title="Upload Tugas" />
+        <item
+            android:id="@+id/nav_input_nilai_tugas"
+            android:icon="@drawable/ic_menu_input_document"
+            android:title="Input Nilai Tugas" />
+        <item
+            android:id="@+id/nav_input_nilai_siswa"
+            android:icon="@drawable/ic_menu_input_document"
+            android:title="Input Nilai Siswa" />
+        <item
+            android:id="@+id/nav_monitoring_siswa"
+            android:icon="@drawable/ic_menu_siswa"
+            android:title="Monitoring Aktivitas Siswa" />
+        <item
+            android:id="@+id/nav_edit_profil"
+            android:icon="@drawable/users"
+            android:title="Edit Profil" />
+        <item
+            android:id="@+id/nav_send_broadcast_message"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Send Broadcast Message" />
+        <item
+            android:id="@+id/nav_view_broadcast_message"
+            android:icon="@drawable/ic_menu_message"
+            android:title="View Broadcast Message" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="Logout" />
+    </group>
+</menu>
